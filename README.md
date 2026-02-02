@@ -202,24 +202,24 @@ This guarantees transparency and traceability.
 
 ## Project Structure
 
+```text
 Multi-Agent-RAG-Validator/
 │
-├── agents/        # Query, routing, retrieval, fact-check agents
-├── ingestion/     # Document ingestion logic
-├── orchestration/ # Agent orchestration and pipelines
-├── vectorstore/   # FAISS storage and loading
-├── ui/            # Streamlit interface
-├── utils/         # Logging and helpers
-├── data/          # Uploaded documents
-├── tests/         # Component-level tests
-├── main.py        # Application entry point
+├── agents/               # Query, routing, retrieval, fact-check agents
+├── ingestion/            # Document ingestion logic
+├── orchestration/        # Agent orchestration and pipelines
+├── vectorstore/          # FAISS storage and loading
+├── ui/                   # Streamlit interface
+├── utils/                # Logging and helpers
+├── data/                 # Uploaded documents
+├── tests/                # Component-level tests
+│
+├── main.py               # Application entry point
 ├── requirements.txt
 └── README.md
+```
 
 
-
-
----
 
 ## Design Decisions
 
